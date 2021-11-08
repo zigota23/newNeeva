@@ -12,8 +12,8 @@ const Blog = (props)=>{
   return(
     <div className={s.blog}>
       <div className={s.didUKnow}>Did You Know</div>
-      <div className={s.topic}>{props.topic}</div>
-      <div className={s.pathBlog}>{props.pathBlog}</div>
+      <div className={s.topic} style={{width:props.widthTopic}}>{props.topic}</div>
+      <div className={s.pathBlog} style={{width:props.widthPathBlog}}>{props.pathBlog}</div>
       <div className={s.divButton} ><Button variant='contained' endIcon={<ArrowForward/>}>{props.textButton}</Button></div>
     </div>
   )

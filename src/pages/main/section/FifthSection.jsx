@@ -13,9 +13,11 @@ const FifthSection = (props)=>{
     <div className={s.blog}>
       <Blog 
       topic={'1000s of trackers follow you every week?'} 
-      pathBlog={'We block all trackers to keep your data safe.'}
+      pathBlog={'We let you pick the news sources you trust and retailers you love.'}
       textButton={'See Our Bill of Rights'}
       className={s.text}
+      widthPathBlog={479}
+      widthTopic={337}
       />
       <div className={s.divImg}><img src={img}/></div>
     </div>

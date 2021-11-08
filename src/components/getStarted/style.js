@@ -14,6 +14,7 @@ export const useStyles = makeStyles({
       width:'300px',
       border: '1px solid #E3E7E2',
       borderRadius: '100px 0px 0px 100px',
+      paddingLeft:25,
     }
   },
   buttonDiv:{

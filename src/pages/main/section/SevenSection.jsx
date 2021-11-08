@@ -14,11 +14,14 @@ const SevenSection = (props)=>{
 
   return(
     <div className={s.group}>
-      <Blog
+      <div className={s.blog}><Blog
         topic='Created and backed by former Google executives'
         pathBlog='From the experts who know search best.'
         textButton='Our Story'
-      />
+        widthPathBlog={474}
+        widthTopic={419}
+        
+      /></div>
       <div className={s.peoples}>
         <div className={s.firstColumn}>
           <People img={Sridhar} name='Sridhar Ramaswamy' status='CEO &#38; Cofounder at Neeva, ex-SVP at Google'/>

@@ -33,17 +33,12 @@ export const useStyles = makeStyles({
       padding:'0 44px'
     },
   },
-  '@media(max-width:1000px)':{
-    text:{
-      '& p':{
-        textAlign:'start'
-      }
-    }
-  },
   '@media(max-width:500px)':{
     text:{
       '& p':{
         fontSize:34,
+        textAlign:'start',
+        marginLeft:44
       }
     }
   }

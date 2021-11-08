@@ -49,5 +49,13 @@ export const useStyles=makeStyles({
     pathBlog:{
       fontSize:30
     }
+  },
+  '@media(max-width:500px)':{
+    topic:{
+      maxWidth:200
+    },
+    pathBlog:{
+      maxWidth:300
+    }
   }
 })

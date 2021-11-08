@@ -8,7 +8,6 @@ export const useStyles = makeStyles({
       marginRight: 0,
       marginLeft:"48px",
     },
-    width:'50%',
     display:"flex",
     flexDirection:'column',
   },

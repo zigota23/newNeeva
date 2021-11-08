@@ -16,6 +16,8 @@ const FouthSelection = (props)=>{
       pathBlog={'We block all trackers to keep your data safe.'}
       textButton={'See Our Bill of Rights'}
       className={s.text}
+      widthPathBlog={462}
+      widthTopic={352}
       />
     </div>
   )

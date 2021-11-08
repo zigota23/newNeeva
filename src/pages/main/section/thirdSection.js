@@ -11,7 +11,8 @@ export const useStyles = makeStyles({
   },
   images:{
     display:'flex',
-    justifyContent:'space-between'
+    justifyContent:'space-between',
+    margin:'0 208px'
   },
   topic:{
     textTransform:'uppercase',
@@ -22,6 +23,11 @@ export const useStyles = makeStyles({
   '@media(max-width:1200px)':{
     images:{
       flexDirection:'column'
+    }
+  },
+  '@media(max-width:800px)':{
+    images:{
+      margin:'0 auto'
     }
   }
   

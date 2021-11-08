@@ -3,6 +3,9 @@ import { makeStyles } from "@mui/styles";
 
 export const useStyles = makeStyles({
   peoples:{
+    width:'50%',
+    justifyContent:'end',
+    marginRight:104,
     display:"flex",
     '& div:first-child':{
       marginBottom:62
@@ -10,6 +13,10 @@ export const useStyles = makeStyles({
   },
   firstColumn:{
     marginRight:149,
+  },
+  blog:{
+    marginLeft:60,
+    width:'50%',
   },
   group:{
     display:'flex',
